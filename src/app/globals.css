@@ -4,8 +4,10 @@
 
 @layer base {
   :root {
-    --background: 210, 5%, 8%;
-    --foreground: 180, 26%, 89%;
+    --background: 210 5% 8%;
+    --primary: 180 26% 89%;
+    --secondary: 0 0% 55.29%;
+    --accent: 7 100% 62%;
   }
 }
 
@@ -14,6 +16,6 @@
     @apply box-border m-0 p-0;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-primary;
   }
 }
