@@ -39,4 +39,28 @@ export const profile = {
       description: 'Develop and maintain web applications using modern technologies such as React, Node.js, and MongoDB.'
     }
   ],
+  testimonials: {
+    title: 'See what my clients have to say',
+    subtitle: "Embark on a journey of discovery through heartfelt testimonials, where clients share their experiences and shed light on the lastin impact we've had.",
+    items: [
+      {
+        content: "Working with Daniel as a product designer at Zyuus Tech Innovations has been transformative. Their designs, exceeding expectations, significantly contributed to our success.",
+        name: "John Smith",
+        position: "Founder & CEO, ZYUUS",
+        image: '/testimonials/1.webp'
+      },
+      {
+        content: "I've had the pleasure of witnessing Daniel remarkable impact as our product designer.Their innovative and user-centric designs consistently elevate our product quality.",
+        name: "Robert TURNER",
+        position: "Founder, ZIP",
+        image: '/testimonials/2.webp'
+      },
+      {
+        content: "Daniel is a visionary product designer who perfectly balances aesthetics and functionality. In my role as Marketing Director at Vimar Solutions, their designs have elevated our brand.",
+        name: "RAHUL KUMAR",
+        position: "CO-FOUNDER, VIMAR",
+        image: '/testimonials/3.webp'
+      }
+    ]
+  }
 }

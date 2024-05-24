@@ -1,6 +1,7 @@
 import Experiences from "./_components/experiences";
 import Hero from "./_components/hero";
 import Projects from "./_components/projects";
+import Testimonials from "./_components/testimonials";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Hero />
       <Experiences />
       <Projects />
-      Home Page
+      <Testimonials />
     </main>
   );
 }
