@@ -2,6 +2,13 @@ export const profile = {
   name: "Zaka Salah Eddine",
   position: 'Full Stack Developer from Tangier, Morocco',
   about: 'As a seasoned full-stack engineer with 6 years of experience, I excel in developing end-to-end web applications that seamlessly blend cutting-edge technologies with robust functionality. My expertise lies in architecting scalable and efficient solutions, ensuring high-performance and an exceptional user experience across the entire stack.',
+  image: '/me.webp',
+  aboutHeading: "Hey I'm Zaka Salah Eddine.",
+  aboutContent: [
+    `I am driven by a passion for transforming innovative ideas into high-performing, user-centric web applications. With a keen eye for detail and an insatiable curiosity to explore cutting-edge technologies, I skillfully navigate the intricacies of both front-end and back-end development to craft robust solutions that exceed user expectations.`,
+    `My journey as a full-stack engineer is characterized by a commitment to thoughtful problem-solving and a dedication to continuously expanding my technical expertise across the entire stack.`,
+    `I thrive in collaborative environments, finding inspiration in the synergy of diverse perspectives within a team. Attention to detail is paramount, and I approach every project with a deep understanding of how users interact with and derive value from the application, ensuring seamless functionality and an exceptional user experience from end to end.`
+  ],
   experiences: [
     {
       date: '2021 - Present',
