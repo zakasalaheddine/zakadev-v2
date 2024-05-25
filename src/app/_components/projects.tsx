@@ -28,7 +28,7 @@ export default async function Projects() {
       <h3 className="uppercase text-4xl mb-5">Work</h3>
       <div className="flex flex-col md:grid grid-cols-2 gap-6">
         {postPreviews.map((postPreview) => (
-          <Link className='flex flex-col items-start gap-6 flex-1' href={`/projects/${postPreview.slug}`} key={postPreview.slug}>
+          <Link className='flex flex-col items-start gap-6 flex-1' href={`/work/${postPreview.slug}`} key={postPreview.slug}>
             <Image
               src={postPreview.thumbnail}
               alt={postPreview.title}

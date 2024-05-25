@@ -6,4 +6,5 @@ export interface IProject {
   about: string
   thumbnail: string
   tagline: string
+  timeline: string
 }
