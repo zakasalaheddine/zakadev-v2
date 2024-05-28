@@ -59,7 +59,7 @@ export default async function SingleWorkPage({
           components={{
             h3: ({ children }) => <h3 className="text-2xl uppercase">{children}</h3>,
             a: ({ children, href }) => (
-              <Link href={href!} className="text-accent underline underline-offset-4 uppercase">
+              <Link href={href!} target='_blank' className="text-accent underline underline-offset-4 uppercase">
                 {children}
               </Link>
             ),

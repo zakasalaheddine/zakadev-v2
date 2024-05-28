@@ -16,7 +16,7 @@ export default function Footer() {
               expectations.
             </p>
           </div>
-          <Link href="/test">
+          <Link href="mailto:salaheddine@zakadev.com">
             <Button>{`Let's Talk`}</Button>
           </Link>
         </div>
