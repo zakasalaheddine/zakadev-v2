@@ -1,12 +1,17 @@
 import Link from 'next/link'
 import Button from '../ui/button'
+import { profile } from '@/data/profile'
+import { Fragment } from 'react'
 
 export default function Footer() {
+  const { socials } = profile
   return (
     <>
       <section className="container my-10">
         <div className="flex flex-col items-start space-y-4">
-          <h1 className="text-7xl md:text-9xl font-semibold text-primary">Have a Project</h1>
+          <h1 className="text-7xl md:text-9xl font-semibold text-primary">
+            Have a Project
+          </h1>
 
           <div className="w-full md:w-[55em] space-y-1">
             <p className="text-primary/70">
@@ -23,11 +28,13 @@ export default function Footer() {
       </section>
       <footer className="container">
         <div className="flex items-center justify-between border-t border-secondary/25 py-10">
-          <div className='text-primary/70'>© ZAKA Salah Eddine. All Rights Reserved 2024.</div>
-          <div className='space-x-4 text-secondary'>
-            <Link href="/">Twitter</Link>
-            <Link href="/">Linkedin</Link>
-            <Link href="/">Medium</Link>
+          <div className="text-primary/70">
+            © ZAKA Salah Eddine. All Rights Reserved 2024.
+          </div>
+          <div className="space-x-4 text-secondary">
+            <Link href={socials.twitter} target='_blank'>Twitter (X.com)</Link>
+            <Link href={socials.linkedin} target='_blank'>Linkedin</Link>
+            <Link href={socials.github} target='_blank'>Github</Link>
           </div>
         </div>
       </footer>

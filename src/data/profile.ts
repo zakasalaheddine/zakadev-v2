@@ -9,6 +9,11 @@ export const profile = {
     `My journey as a full-stack engineer is characterized by a commitment to thoughtful problem-solving and a dedication to continuously expanding my technical expertise across the entire stack.`,
     `I thrive in collaborative environments, finding inspiration in the synergy of diverse perspectives within a team. Attention to detail is paramount, and I approach every project with a deep understanding of how users interact with and derive value from the application, ensuring seamless functionality and an exceptional user experience from end to end.`
   ],
+  socials: {
+    twitter: 'https://x.com/ZakaSalahEddine',
+    linkedin: 'https://www.linkedin.com/in/zakasalaheddine/',
+    github: 'https://github.com/zakasalaheddine'
+  },
   experiences: [
     {
       date: '2021 - Present',
