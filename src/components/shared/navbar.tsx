@@ -3,7 +3,7 @@ import NavbarLink from './navbar-link'
 
 export default function Navbar() {
   return (
-    <header className="flex items-center justify-between flex-wrap sticky top-0 py-5 container bg-background">
+    <header className="flex items-center justify-between flex-wrap sticky top-0 py-5 container bg-background z-10">
       <div className="flex flex-col text-secondary">
         <span>[ 01 ] Hire Me</span>
         <span>{`Let's Work Together.`}</span>

@@ -15,35 +15,35 @@ export const profile = {
       title: 'Gatsby, React, and Node.js Developer',
       company: 'Interlincx',
       location: 'Los Angles, CA',
-      description: 'Develop and maintain web applications using modern technologies such as React, Node.js, and MongoDB.'
+      description: 'Full-stack developer responsible for creating sophisticated UIs to enable content editors and analysts to create monetizable articles. Iteratively built robust solutions like form builders and client templates using React, accounting for complex requirements. Collaborated with cross-functional teams including engineers, product managers, and business leaders to refine tools and processes. Worked closely with the engineering team, coordinating via GitHub and Slack, to continuously enhance the Netlify CMS and Gatsby-based content sites built with Node.js. Demonstrated critical thinking, and organization.'
     },
     {
-      date: '2022 - 2021',
+      date: '2020 - 2021',
       title: 'Full Stack Developer',
-      company: 'ZakaDev',
-      location: 'Tangier, Morocco',
-      description: 'Develop and maintain web applications using modern technologies such as React, Node.js, and MongoDB.'
+      company: 'Upwork',
+      location: 'Worlwide',
+      description: 'Freelance full-stack developer with experience across multiple client projects. Proficient in Next.js, React, and Node.js for building modern web applications. Integrated Contentful and Strapi for seamless content management and delivery. Collaborated closely with clients to understand requirements and deliver tailored solutions adhering to best practices.'
     },
     {
-      date: '2021 - Present',
-      title: 'Full Stack Developer',
-      company: 'ZakaDev',
-      location: 'Tangier, Morocco',
-      description: 'Develop and maintain web applications using modern technologies such as React, Node.js, and MongoDB.'
+      date: '2018 - 2020',
+      title: 'C#, Laravel, React, and Node.js Developer',
+      company: 'Sagatec',
+      location: 'Meknes, Morocco',
+      description: `Developed robust POS and stock management desktop applications 'MATTINE' and 'MA CAISE' using C# and SQLServer. Engineered user-friendly interfaces, integrated payment gateways and barcode scanners, optimized performance, and ensured data integrity. Designed efficient SQLServer databases and implemented complex business logic. Later, developed a cloud version using Laravel, React/Node, and MySQL, collaborating cross-functionally to gather requirements and deliver high-quality, reliable solutions through rigorous testing.`
     },
     {
-      date: '2021 - Present',
-      title: 'Full Stack Developer',
-      company: 'ZakaDev',
-      location: 'Tangier, Morocco',
-      description: 'Develop and maintain web applications using modern technologies such as React, Node.js, and MongoDB.'
+      date: '2017 - 2018',
+      title: 'Linux Server Manager',
+      company: 'GreenPathMedia',
+      location: 'Meknes, Morocco',
+      description: `Configured and deployed a CentOS-based web server for a mass email marketing platform using PowerMTA. Utilized Linux and Bash scripting to automate server management and installation tasks. Ensured optimal performance and security configurations for handling large volumes of email traffic. Collaborated with cross-functional teams to gather requirements and implement robust email delivery mechanisms.`
     },
     {
-      date: '2021 - Present',
-      title: 'Full Stack Developer',
-      company: 'ZakaDev',
-      location: 'Tangier, Morocco',
-      description: 'Develop and maintain web applications using modern technologies such as React, Node.js, and MongoDB.'
+      date: '2016 - 2017',
+      title: 'FullStack Developer',
+      company: 'Helpline',
+      location: 'Meknes, Morocco',
+      description: `Developed a classified ads website using Laravel and Vue.js, and an accompanying Android app in Java. Implemented features for listing, searching, and managing classified advertisements across web and mobile platforms. Collaborated with teams to gather requirements and ensure seamless user experiences across devices.`
     }
   ],
   testimonials: {
@@ -51,23 +51,29 @@ export const profile = {
     subtitle: "Embark on a journey of discovery through heartfelt testimonials, where clients share their experiences and shed light on the lastin impact we've had.",
     items: [
       {
-        content: "Working with Daniel as a product designer at Zyuus Tech Innovations has been transformative. Their designs, exceeding expectations, significantly contributed to our success.",
-        name: "John Smith",
-        position: "Founder & CEO, ZYUUS",
-        image: '/testimonials/1.webp'
+        content: "He is very kind and delivered on time with collaborative. I will come back to him for my future needs. I strongly recommend him.",
+        name: "Suresh kumar Anbu",
+        position: "Client, Fiverr",
+        image: '/testimonials/fiverr.svg'
       },
       {
-        content: "I've had the pleasure of witnessing Daniel remarkable impact as our product designer.Their innovative and user-centric designs consistently elevate our product quality.",
-        name: "Robert TURNER",
-        position: "Founder, ZIP",
-        image: '/testimonials/2.webp'
+        content: "Awesome developer, will surely work with him again",
+        name: "Upwork",
+        position: "Client, Upwork",
+        image: '/testimonials/upwork.svg'
       },
       {
-        content: "Daniel is a visionary product designer who perfectly balances aesthetics and functionality. In my role as Marketing Director at Vimar Solutions, their designs have elevated our brand.",
-        name: "RAHUL KUMAR",
-        position: "CO-FOUNDER, VIMAR",
-        image: '/testimonials/3.webp'
-      }
+        content: "Its been a great experience working with Zaka. He went over the line to make sure we solved the issues we needed to get solved, I'd totally recommend working with him.",
+        name: "Upwork",
+        position: "Client, Upwork",
+        image: '/testimonials/upwork.svg'
+      },
+      {
+        content: "Its being a pleasure working with him! It has been a short project, but I can see myself working together with him on larger ventures.",
+        name: "Upwork",
+        position: "Client, Upwork",
+        image: '/testimonials/upwork.svg'
+      },
     ]
   }
 }

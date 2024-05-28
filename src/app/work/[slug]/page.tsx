@@ -4,6 +4,7 @@ import matter from 'gray-matter'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { IProject } from '@/types/project'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default async function SingleWorkPage({
   params: { slug }
@@ -19,7 +20,7 @@ export default async function SingleWorkPage({
   )
   const postFile = fs.readFileSync(filePath, 'utf8')
   const { content, data } = matter(postFile)
-  const { about, role, tagline, thumbnail, title, tools, timeline } =
+  const { role, thumbnail, title, tools, timeline } =
     data as IProject
   return (
     <main className="flex flex-col container">
@@ -56,7 +57,19 @@ export default async function SingleWorkPage({
         <MDXRemote
           source={content}
           components={{
-            p: ({ children }) => <p className="text-primary/70">{children}</p>
+            h3: ({ children }) => <h3 className="text-2xl uppercase">{children}</h3>,
+            a: ({ children, href }) => (
+              <Link href={href!} className="text-accent underline underline-offset-4 uppercase">
+                {children}
+              </Link>
+            ),
+            p: ({ children }) => <p className="text-primary/70">{children}</p>,
+            ul: ({ children }) => (
+              <ul className="text-primary/70 list-disc pl-10">{children}</ul>
+            ),
+            ol: ({ children }) => (
+              <ol className="text-primary/70 list-decimal pl-10">{children}</ol>
+            )
           }}
         />
       </article>
